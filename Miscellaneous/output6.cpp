@@ -1,0 +1,41 @@
+#include<iostream>
+using namespace std;
+int main(){
+
+int l,b,h;
+cout<<"Enter the value of l,b,h:";
+cin>>l>>b>>h;
+int  ***ptr=new int **[l];
+//create a 2d array and stores its address in the ptr
+for(int i=0;i<l;i++)
+{
+  ptr[i]=new int *[b];
+  for(int j=0;j<b;j++){
+    ptr[i][j]=new int [h];
+     
+  }
+}
+for(int i=0;i<l;i++){
+  for(int j=0;j<b;j++){
+    for(int k=0;k<h;k++){
+      ptr[i][j][k]=i+j+k;
+    }
+  }
+}
+for(int i=0;i<l;i++){
+  for(int j=0;j<b;j++){
+    for(int k=0;k<h;k++){
+     cout<< ptr[i][j][k]<<" ";
+    }cout<<endl;
+  }cout<<endl;
+}
+//release the heap memory
+for(int i=0;i<l;i++){
+  for(int j=0;j<b;j++){
+    delete[]ptr[i][j];
+  }
+  delete[] ptr[i];
+}
+delete[] ptr;
+  return 0;
+}
