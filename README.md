@@ -34,6 +34,7 @@ Code part/
 ## 🎯 Topics Covered
 
 ### Data Structures
+
 - ✅ Arrays & Vectors
 - ✅ Linked Lists (Singly, Doubly, Circular)
 - ✅ Stacks & Queues
@@ -43,6 +44,7 @@ Code part/
 - ✅ Heaps
 
 ### Algorithms
+
 - ✅ **Sorting**: Bubble Sort, Insertion Sort, Selection Sort, Merge Sort, Quick Sort
 - ✅ **Searching**: Linear Search, Binary Search
 - ✅ **Recursion**: Factorial, Fibonacci, Backtracking, Permutations
@@ -52,6 +54,7 @@ Code part/
 - ✅ **Graph Algorithms**: DFS, BFS, Shortest Path
 
 ### Problem-Solving Patterns
+
 - 🔹 Prefix Sum
 - 🔹 Sliding Window
 - 🔹 Two Pointers
@@ -113,17 +116,17 @@ g++ -o binary_search Binary_search1.cpp
 
 ## 📊 Progress Tracker
 
-| Topic | Problems Solved | Status |
-|-------|----------------|--------|
-| Arrays | 28+ | ✅ In Progress |
-| Recursion | 32+ | ✅ In Progress |
-| Sorting | 10+ | ✅ Completed |
-| Searching | 5+ | ✅ Completed |
-| Matrix | 11+ | ✅ In Progress |
-| Linked Lists | - | 🔄 Ongoing |
-| Trees | - | 🔄 Ongoing |
-| Dynamic Programming | 6+ | 🔄 Ongoing |
-| Graphs | - | 📝 Planned |
+| Topic               | Problems Solved | Status         |
+| ------------------- | --------------- | -------------- |
+| Arrays              | 28+             | ✅ In Progress |
+| Recursion           | 32+             | ✅ In Progress |
+| Sorting             | 10+             | ✅ Completed   |
+| Searching           | 5+              | ✅ Completed   |
+| Matrix              | 11+             | ✅ In Progress |
+| Linked Lists        | -               | 🔄 Ongoing     |
+| Trees               | -               | 🔄 Ongoing     |
+| Dynamic Programming | 6+              | 🔄 Ongoing     |
+| Graphs              | -               | 📝 Planned     |
 
 ## 🤝 Contributing
 
@@ -160,4 +163,4 @@ If you found this repository helpful, please consider giving it a ⭐!
 
 **Happy Coding! 💻**
 
-*"The only way to learn a new programming language is by writing programs in it." - Dennis Ritchie*" 
+_"The only way to learn a new programming language is by writing programs in it." - Dennis Ritchie_"

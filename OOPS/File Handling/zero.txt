@@ -1,0 +1,4 @@
+Original data
+99 88 77 66 55 
+sorted data
+55 66 77 88 99 

@@ -138,14 +138,17 @@ ssh-add ~/.ssh/id_ed25519
 ## 🆘 Troubleshooting
 
 ### Error: "Repository not found"
+
 - Check if repository URL is correct
 - Verify you have access to the repository
 
 ### Error: "Authentication failed"
+
 - Use Personal Access Token instead of password
 - Check if your credentials are correct
 
 ### Error: "Updates were rejected"
+
 ```bash
 # Pull latest changes first
 git pull origin main --rebase

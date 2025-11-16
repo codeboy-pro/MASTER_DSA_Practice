@@ -28,34 +28,40 @@ Have an idea to improve the code or add new features?
 #### Pull Request Process
 
 1. **Fork the repository**
+
    ```bash
    git clone https://github.com/codeboy-pro/DSA.git
    cd DSA
    ```
 
 2. **Create a new branch**
+
    ```bash
    git checkout -b feature/YourFeatureName
    ```
 
 3. **Make your changes**
+
    - Write clean, readable code
    - Add comments where necessary
    - Follow the existing code style
 
 4. **Test your code**
+
    ```bash
    g++ -o test your_file.cpp
    ./test
    ```
 
 5. **Commit your changes**
+
    ```bash
    git add .
    git commit -m "Add: Brief description of your changes"
    ```
 
 6. **Push to your fork**
+
    ```bash
    git push origin feature/YourFeatureName
    ```
@@ -90,10 +96,10 @@ using namespace std;
 
 int binarySearch(int arr[], int n, int target) {
     int left = 0, right = n - 1;
-    
+
     while (left <= right) {
         int mid = left + (right - left) / 2;
-        
+
         if (arr[mid] == target)
             return mid;
         else if (arr[mid] < target)
@@ -101,7 +107,7 @@ int binarySearch(int arr[], int n, int target) {
         else
             right = mid - 1;
     }
-    
+
     return -1;  // Element not found
 }
 ```

@@ -5,9 +5,11 @@ This document describes the organized folder structure of the DSA (Data Structur
 ## 📂 Folder Structure
 
 ### 1. **Recursion** 📊
+
 Contains all recursion-related programs and implementations.
 
 **Files included:**
+
 - Binary_search_Recur.cpp
 - check_pal_recur.cpp
 - consonant_recur.cpp
@@ -18,7 +20,7 @@ Contains all recursion-related programs and implementations.
 - iseven_recur.cpp
 - linwear_search_recur.cpp
 - lower_to_upper_recur.cpp
-- Merge_sort_practicwe__using_recur.cpp
+- Merge_sort_practicwe\_\_using_recur.cpp
 - merge_sort_using_recur.cpp
 - min_ele_arr_recur.cpp
 - min_ele_Recur.cpp
@@ -42,9 +44,11 @@ Contains all recursion-related programs and implementations.
 - target_sum_revur.cpp
 
 ### 2. **Sorting** 🔄
+
 Contains various sorting algorithm implementations.
 
 **Files included:**
+
 - bubble_sort_in_decreasing_order.cpp
 - bubble_sort_of_char.cpp
 - bubble_sort1.cpp
@@ -57,9 +61,11 @@ Contains various sorting algorithm implementations.
 - uick_sort_pra.cpp
 
 ### 3. **Searching** 🔍
+
 Contains searching algorithm implementations (Binary Search, etc.).
 
 **Files included:**
+
 - Aggressive_cow.cpp
 - Binary_search1.cpp
 - Binary_search2.cpp
@@ -67,9 +73,11 @@ Contains searching algorithm implementations (Binary Search, etc.).
 - Leatcode1011_ship_Binary.cpp
 
 ### 4. **Arrays** 📋
+
 Contains array manipulation and algorithm implementations.
 
 **Files included:**
+
 - 2d_vector.cpp
 - 3_sum.cpp
 - 3_sum_using_brute_force_approach.cpp
@@ -77,7 +85,7 @@ Contains array manipulation and algorithm implementations.
 - count_vowel_and_consonent.cpp
 - Divide_Two_Subarray_Into_Equal_Sum.cpp
 - equal_sum_Insert.cpp
-- Equal_sum_of_o(n)_com.cpp
+- Equal_sum_of_o(n)\_com.cpp
 - max_distance_2.cpp
 - max_distance_of_2_ele1.cpp
 - prefix3.cpp
@@ -98,9 +106,11 @@ Contains array manipulation and algorithm implementations.
 - vector1.cpp
 
 ### 5. **Matrix** 🎯
+
 Contains 2D array and matrix-related programs.
 
 **Files included:**
+
 - 2D_array1.cpp
 - make_spiral_mat.cpp
 - matrix_sum.cpp
@@ -114,9 +124,11 @@ Contains 2D array and matrix-related programs.
 - wave_form_of_a_matrix.cpp
 
 ### 6. **Pointers** 👉
+
 Contains pointer and reference-related programs.
 
 **Files included:**
+
 - pointer_char.cpp
 - pointer1.cpp
 - pointer12.cpp
@@ -125,16 +137,20 @@ Contains pointer and reference-related programs.
 - reference.cpp
 
 ### 7. **Strings** 📝
+
 Contains string manipulation programs.
 
 **Files included:**
+
 - Ispallindrome.cpp
 - String.cpp
 
 ### 8. **Dynamic_Programming** 💡
+
 Contains dynamic memory allocation and dynamic programming implementations.
 
 **Files included:**
+
 - Dynamic_2D.cpp
 - Dynamic_3D.cpp
 - dynamic_4d.cpp
@@ -143,9 +159,11 @@ Contains dynamic memory allocation and dynamic programming implementations.
 - perfect_sum.cpp
 
 ### 9. **Miscellaneous** 📦
+
 Contains utility and test files.
 
 **Files included:**
+
 - output.cpp
 - output2.cpp
 - output3.cpp
@@ -156,7 +174,9 @@ Contains utility and test files.
 - tempCodeRunnerFile.cpp
 
 ### 10. **Existing Folders** (Pre-organized)
+
 The following folders were already present and contain their respective topic files:
+
 - **Linked List** - Linked list implementations
 - **OOPS** - Object-Oriented Programming concepts
 - **Practice** - Practice problems
