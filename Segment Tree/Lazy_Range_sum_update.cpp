@@ -42,7 +42,7 @@ lazy[node]=0;
   }
 
       
-  void    updateQuerry(int node, int start, int end, int left, int right, int val)
+  void  updateQuerry(int node, int start, int end, int left, int right, int val)
   {
       if (start > right || end < left)
           return;
